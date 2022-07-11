@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>No Name (add projectName to cucumber-reporting.properties)</td>
+      <td>11 Jul 2022, 12:58</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.Hooks.setup()</td>
+              <td>8</td>
+              <td class="duration" data-value="2205834650">2.205</td>
+              <td class="duration" data-value="2205834650">3.220</td>
+              <td class="duration" data-value="17646677200">17.646</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</td>
+              <td>8</td>
+              <td class="duration" data-value="737040600">0.737</td>
+              <td class="duration" data-value="737040600">0.771</td>
+              <td class="duration" data-value="5896324800">5.896</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.export_grid_dropdown_button_should_be_on_the_left_of_the_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="15716700">0.015</td>
+              <td class="duration" data-value="15716700">0.019</td>
+              <td class="duration" data-value="125733600">0.125</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.grid_setting_button_is_on_the_right_of_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="14706112">0.014</td>
+              <td class="duration" data-value="14706112">0.017</td>
+              <td class="duration" data-value="117648900">0.117</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.grid_settings_should_be_on_the_right_side_of_the_reset_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="26150475">0.026</td>
+              <td class="duration" data-value="26150475">0.028</td>
+              <td class="duration" data-value="209203800">0.209</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.refresh_button_should_be_on_the_left_side_of_reset_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="27846325">0.027</td>
+              <td class="duration" data-value="27846325">0.034</td>
+              <td class="duration" data-value="222770600">0.222</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_enters_and_and_logs_in(java.lang.String,java.lang.String)</td>
+              <td>8</td>
+              <td class="duration" data-value="9069356962">9.069</td>
+              <td class="duration" data-value="9069356962">12.944</td>
+              <td class="duration" data-value="72554855700">1:12.554</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_is_on_login_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="34521050">0.034</td>
+              <td class="duration" data-value="34521050">0.053</td>
+              <td class="duration" data-value="276168400">0.276</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_lands_on_homepage()</td>
+              <td>8</td>
+              <td class="duration" data-value="4449775">0.004</td>
+              <td class="duration" data-value="4449775">0.005</td>
+              <td class="duration" data-value="35598200">0.035</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_logs_out_from_the_application()</td>
+              <td>8</td>
+              <td class="duration" data-value="844868425">0.844</td>
+              <td class="duration" data-value="844868425">0.853</td>
+              <td class="duration" data-value="6758947400">6.758</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_opens_vehicles_under_fleet_dropdown_menu()</td>
+              <td>8</td>
+              <td class="duration" data-value="2259268562">2.259</td>
+              <td class="duration" data-value="2259268562">2.282</td>
+              <td class="duration" data-value="18074148500">18.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_should_be_able_to_click_grid_settings_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="10784525">0.010</td>
+              <td class="duration" data-value="10784525">0.012</td>
+              <td class="duration" data-value="86276200">0.086</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_should_be_able_to_click_on_export_grid_dropdown()</td>
+              <td>8</td>
+              <td class="duration" data-value="10839950">0.010</td>
+              <td class="duration" data-value="10839950">0.012</td>
+              <td class="duration" data-value="86719600">0.086</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_should_be_able_to_click_refresh_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="11370987">0.011</td>
+              <td class="duration" data-value="11370987">0.012</td>
+              <td class="duration" data-value="90967900">0.090</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.vytrack.stepdefinitions.VehiclesPageStepDefs.user_should_be_able_to_click_reset_button()</td>
+              <td>8</td>
+              <td class="duration" data-value="10754112">0.010</td>
+              <td class="duration" data-value="10754112">0.013</td>
+              <td class="duration" data-value="86032900">0.086</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>15</td>
+            <td>120</td>
+            <td class="duration">1.018</td>
+            <td class="duration">1:12.554</td>
+            <td class="duration">2:2.268</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

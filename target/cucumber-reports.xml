@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="146.121">
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons" time="17.597">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "storemanager57" and "UserUser123" and logs in.............passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 2" time="16.182">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "storemanager58" and "UserUser123" and logs in.............passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 3" time="16.502">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "salesmanager110" and "UserUser123" and logs in............passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 4" time="14.15">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "salesmanager111" and "UserUser123" and logs in............passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 5" time="15.902">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "salesmanager112" and "UserUser123" and logs in............passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 6" time="21.85">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "user10" and "UserUser123" and logs in.....................passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 7" time="21.848">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "user11" and "UserUser123" and logs in.....................passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a user when I am on Vytrack -&gt; Fleet -&gt; Vehicles" name="User to see Export Grid dropdown, Refresh, Reset and Grid Settings Buttons 8" time="21.888">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters "user12" and "UserUser123" and logs in.....................passed
+And user lands on homepage..................................................passed
+Then user opens vehicles under fleet dropdown menu..........................passed
+Then user should be able to click on export grid dropdown...................passed
+And export grid dropdown button should be on the left of the page...........passed
+And user should be able to click refresh button.............................passed
+And user should be able to click reset button...............................passed
+And user should be able to click Grid Settings button.......................passed
+And refresh button should be on the left side of reset button...............passed
+And grid settings should be on the right side of the reset button...........passed
+And grid setting button is on the right of page.............................passed
+Then user logs out from the application.....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
